@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #E6E6FA;
+
+}
+
+.wrapper .sidebar{
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    box-shadow: 18px 20px 10px lightgrey;
+   
+}
+
+.topnavNew{
+    background-color: white;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.inputClass{
+    width: 85%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+.container{
+  margin-left: 318px;
+    margin-top: 65px;
+       
+}
+
+h5{
+margin-top: 30px;
+margin-left: 435px;
+}
+
+.vedioContainer{
+margin-left: 177px;
+    margin-top: 10px;
+    color:lightslategray;
+     font-weight: bolder;
+}
+
+a{
+    font-size: 12px;
+}
+.highlightContainer{
+border: 3px solid white;
+background-color: lightblue;
+ margin-top:20px;
+    border-style: groove;
+    border-style: solid;
+    border-left-color: cornflowerblue;
+}
+
+.icon{
+font-size:40px;
+color:black
+}
+i{
+margin-top:20px
+}
+.profile{
+ text-align: center;
+}
+.textContainer{
+width: 30%;
+    height: 180px;
+        font-weight: bold;
+text-align: center;
+     margin-top: 15px;
+      display: table-cell;
+      vertical-align: middle;
+     background-color: white;
+     border: 2px solid white;
+}
